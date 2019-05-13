@@ -9,3 +9,4 @@
 * 前期 第3週（4月23日）： ソースコードの管理（2）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-03.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-03-ans.pdf), 
 [講義資料（訂正版）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-03-訂正版.pdf)
 * 前期 第4週（5月7日）： メモリの動的確保とポインタ･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-04.pdf), [サンプルプログラム](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample104.c)
+* 前期 第5週（5月14日）： メモリの動的確保と構造体･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-05.pdf), [サンプルプログラムsample105-1.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample105-1.c), [サンプルプログラムsample105-2.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample105-2.c)
