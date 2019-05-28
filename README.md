@@ -12,4 +12,4 @@
 * 前期 第5週（5月14日）： メモリの動的確保と構造体･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-05.pdf), [サンプルプログラムsample105-1.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample105-1.c), [サンプルプログラムsample105-2.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample105-2.c), [参考資料（2Dプログラミング基礎の構造体に関する授業資料）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/kiso2-10.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-05-ans.pdf)
 * 前期 第6週（5月21日）： コマンドライン引数･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-ans.pdf)
 * 前期 （5月28日）： 定期試験について･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06+.pdf)
-* 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-program-design/lecture/raw/master/src/p2-1-06-test.pdf)
+* 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-test.pdf)
