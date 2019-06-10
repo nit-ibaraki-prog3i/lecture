@@ -13,3 +13,5 @@
 * 前期 第6週（5月21日）： コマンドライン引数･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-ans.pdf)
 * 前期 （5月28日）： 定期試験について･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06+.pdf)
 * 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-test.pdf)
+* 前期 第7週：前期中間試験
+* 前期 第8週（6月11日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-08.pdf), [サンプルプログラムsample108.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample108.c)
