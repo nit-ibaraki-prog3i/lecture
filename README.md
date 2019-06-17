@@ -15,3 +15,4 @@
 * 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-test.pdf)
 * 前期 第7週：前期中間試験
 * 前期 第8週（6月11日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-08.pdf), [サンプルプログラムsample108.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample108.c)
+* 前期 第9週（6月18日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-09.pdf)
