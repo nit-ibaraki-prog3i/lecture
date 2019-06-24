@@ -15,4 +15,5 @@
 * 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-test.pdf)
 * 前期 第7週：前期中間試験
 * 前期 第8週（6月11日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-08.pdf), [サンプルプログラムsample108.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/sample108.c), [課題8-1解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/ans108-1.c), [課題8-2解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/ans108-2.c), [課題8-3解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/ans108-3.c)
-* 前期 第9週（6月18日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-09.pdf)
+* 前期 第9週（6月18日）： 計算モデル（2）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-09.pdf)
+* 前期 第10週（6月25日）： 言語処理系（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-10.pdf), [calc.lex](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week110/calc.lex), [calc.yacc](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week110/calc.yacc)
