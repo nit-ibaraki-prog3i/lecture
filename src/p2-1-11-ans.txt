@@ -1,0 +1,93 @@
+//--------------------------------------------------
+//calc2.lex
+//--------------------------------------------------
+%%
+"m" return MAX; 
+"t" return TRI; //課題11-1
+"s" return SUM; //課題11-2
+"r" return RAN; //課題11-3
+"+" return ADD;
+"-" return SUB;
+"*" return MUL;
+"/" return DIV;
+"%" return MOD;
+"(" return LP;
+")" return RP;
+"\n" return NL;
+
+[0-9]+ {
+  yylval = atoi(yytext);
+  return NUMBER;
+}
+%%
+
+//--------------------------------------------------
+//calc2.yacc
+//--------------------------------------------------
+%token NL LP RP NUMBER
+%token ADD SUB MUL DIV MOD MAX TRI SUM RAN //課題で追加する
+%%
+list : 
+     | list expr NL { printf("%d\n", $2);}
+     ;
+expr : expr ADD expr { $$ = $1 + $3;}
+     | expr SUB expr { $$ = $1 - $3;}
+     | expr MUL expr { $$ = $1 * $3;}
+     | expr DIV expr { $$ = $1 / $3;}
+     | expr MOD expr { $$ = $1 % $3;}
+     | MAX expr expr { $$ = max($2, $3);}
+     | TRI expr expr expr { $$ = tri($2, $3, $4);} //課題11-1
+     | SUM expr      { $$ = sum($2);} //課題11-2
+     | RAN expr expr { $$ = range($2, $3);} //課題11-3
+     | LP expr RP    { $$ = $2;}
+     | NUMBER        { $$ = $1;}
+     ;
+%%
+#include <stdio.h>
+#include "lex.yy.c"
+#include "myproc.h"
+
+//--------------------------------------------------
+//myproc.h
+//--------------------------------------------------
+int max(int x, int y);
+int tri(int x, int y, int z);
+int sum(int x);
+int range(int s, int e);
+
+//--------------------------------------------------
+//myproc.c
+//--------------------------------------------------
+int max(int x, int y)
+{
+    if(x > y) return x;
+    else return y;
+}
+
+int tri(int x, int y, int z)
+{
+    int r = x;
+    if(y > r) r = y;
+    if(z > r) r = z;
+    return r;    
+}
+
+int sum(int x)
+{
+    int i, r;
+    r = 0;
+    for(i=0; i<=x; i++) {
+        r += i;
+    }
+    return r;
+}
+
+int range(int s, int e)
+{
+    int i, r;
+    r = 0;
+    for(i=s; i<=e; i++) {
+        r += i;
+    }
+    return r;
+}
