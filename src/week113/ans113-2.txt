@@ -1,0 +1,99 @@
+//課題13-4
+//--------------------------------------------------
+//array.lex
+//--------------------------------------------------
+%%
+"clear" return CLEAR;
+"exit"  return EXIT;
+"show" return SHOW;
+"set"  return SET;
+"sqrt"  return SQRT;
+"\n"    return NL;
+
+[0-9]+ {
+  yylval = atoi(yytext);
+  return NUMBER;
+}
+%%
+
+//--------------------------------------------------
+//array.yacc
+//--------------------------------------------------
+%token NL NUMBER
+%token CLEAR EXIT SHOW SET SQRT
+%%
+list :
+     | list cmd NL       { printf("\n"); }
+     ;
+cmd  : CLEAR             { clear(); }
+     | EXIT              { exit(0); }
+     | SHOW              { show(); }
+     | SET NUMBER NUMBER { set($2, $3); }
+     | SQRT NUMBER       { mysqrt3($2); }
+     ;
+%%
+#include <stdio.h>
+#include "lex.yy.c"
+#include "myproc.h"
+
+//--------------------------------------------------
+//myproc.h
+//--------------------------------------------------
+int a[10];
+
+int clear();
+int show();
+int set(int i, int n);
+double mysqrt2(double c);
+int mysqrt3(int i);
+
+//--------------------------------------------------
+//myproc.c
+//--------------------------------------------------
+#include <stdio.h>
+#include "myproc.h"
+
+int clear()
+{
+    int i;
+    for(i=0; i<10; i++) {
+	a[i] = 0;
+    }
+    return 0;
+}
+
+int show(void)
+{
+    int i;
+    for(i=0; i<10; i++) {
+	printf("%d ", a[i]);
+    }
+    printf("\n");
+    return 0;
+}
+
+int set(int i, int n)
+{
+    a[i] = n;
+    return 0;
+}
+
+double mysqrt2(double c)
+{
+    int i;
+    double x1, x2;
+    x1 = 100;
+    for(i=0; 1; i++) {
+	x2 = x1 - (x1*x1 - c) / (2*x1);
+	printf("%d: %lf\n", i, x2);
+	if(x1-x2<0.0001) break;
+	x1 = x2;
+    }
+    return x2;
+}
+
+int mysqrt3(int i)
+{
+    mysqrt2(a[i]);
+    return 0;
+}
