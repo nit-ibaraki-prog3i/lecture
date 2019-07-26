@@ -13,7 +13,7 @@
 * 前期 第6週（5月21日）： コマンドライン引数･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-ans.pdf)
 * 前期 （5月28日）： 定期試験について･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06+.pdf)
 * 小テスト･･･[第6週に実施（第5週の内容）](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-06-test.pdf)
-* 前期 第7週：前期中間試験
+* 前期 第7週：前期中間試験･･･[問題と模範解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/2019-p2-1-mid.pdf)
 * 前期 第8週（6月11日）： 計算モデル（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-08.pdf), [サンプルプログラムsample108.c](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week108/sample108.c), [課題8-1解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week108/ans108-1.c), [課題8-2解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week108/ans108-2.c), [課題8-3解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week108/ans108-3.c)
 * 前期 第9週（6月18日）： 計算モデル（2）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-09.pdf), [課題9-1課題9-2解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week109/ans109-1.c), [課題9-3解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week109/ans109-2.c)
 * 前期 第10週（6月25日）： 言語処理系（1）･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-10.pdf), [calc.lex](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week110/calc.lex), [calc.yacc](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/week110/calc.yacc), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-10-ans.txt)
