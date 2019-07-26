@@ -1,4 +1,4 @@
-//課題5-3
+//課題8-3
 #include <stdio.h>
 
 int main(void)
