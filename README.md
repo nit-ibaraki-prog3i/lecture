@@ -4,7 +4,7 @@
 [2019度シラバス](https://github.com/nit-ibaraki-prog3i/lecture/blob/master/src/SyllabusPDF.pdf)
 
 ## 講義資料（後期）
-* 後期 第1週（9月25日）： Javaプログラムの実行･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-2-01.pdf)
+* 後期 第1週（9月25日）： Javaプログラムの実行･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-2-01.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-2-01-ans.pdf)
 
 ## 講義資料（前期）
 * 前期 第1週（4月09日）： Cプログラミングの復習･･･[講義資料](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-01.pdf), [課題解答](https://github.com/nit-ibaraki-prog3i/lecture/raw/master/src/p2-1-01-ans.pdf)
